@@ -225,7 +225,7 @@ input[type=number], select {
 }
 
 body {
-  background-image: url("Stars-fixed.jpg");
+  background-image: url("dna.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 	color: white;
@@ -252,7 +252,7 @@ button.link:hover {
     				margin: 20px;
 				font-size: 20pt;
 				padding: 10px 10px;
-				background-color: blue;
+				background-color: rgb(0, 102, 51);
 				-moz-border-radius: 15px;
 				-webkit-border-radius: 15px;
 				border-style: solid;
