@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="script.js"></script>
+  <script src="mark.js"></script>
+  <title id="ti">Quiz</title>
+</head>
+<body>
+  <br>
+  <h1 id="title">...</h1>
+  <br>
+  <div id="scorediv" class="hide"><h1 id="title">Your Score</h1><br>
+    <centre><p class="score" id="score">0</p></centre></div>
+  <br>
+  <script>
+  document.getElementById("ti").innerHTML = getQuizName();
+  document.getElementById("title").innerHTML = getQuizName();
+  makeQuiz(getQuizFileName(getQuizNum()));
+  </script>
+  <br>
+  <center><button type="button" class="submit" onclick="markQuiz()">SUBMIT</button></center>
+  <br>
+  
+</body>
